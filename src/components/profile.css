@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.avatar img{
+    border-radius: 50%;
+    width: 100px;
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+
+}
+.card-container{
+    width: 300px;
+    height: 370px;
+    background-color: rgba(182, 180, 180, 0.5);
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+.header-card{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ1fiLt2CHFANIHncXyFCOf_HQdh1sEywmXcRKb487_nwu-Umr3&usqp=CAU");
+    background-size: cover;
+    height:135px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.description{
+    height: 100px;
+    line-height: 1.7;
+}
+.description h4{
+    color: royalblue;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    min-height: 200px;
+    background-color: rgb(51, 50, 50);
+    color: honeydew;
+}
